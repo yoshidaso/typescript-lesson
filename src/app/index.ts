@@ -22,6 +22,17 @@ const any :any[] = ['apple', 'banana', 'grape', 1]
 const book :[string, number, boolean] = ['business', 1800, true]
 
 // enum宣言
+enum CoffeeSize {
+  SHORT = 'SHORT',
+  TALL = 'TALL',
+  GRANDE = 'GRANDE',
+  VENTI = 'VENTI'
+}
 
+const coffee = {
+  hot : true,
+  size : CoffeeSize.TALL
+}
 
+coffee.size = CoffeeSize.SHORT
 console.log(person)
