@@ -35,4 +35,13 @@ const coffee = {
 }
 
 coffee.size = CoffeeSize.SHORT
-console.log(person)
+
+// any型宣言
+// any型はなるべく使わない
+let anything: any = true;
+anything = 'hello';
+anything = ['hello', 33, true];
+anything = {};
+anything.alskjh = 'alskjh';
+let banana = 'banana';
+banana = anything;
